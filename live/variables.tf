@@ -20,3 +20,5 @@ variable "engine_mode" {}
 variable "desired_ecs" {}
 variable "min_ecs" {}
 variable "max_ecs" {}
+variable "access_key" {}
+variable "secret_key" {}

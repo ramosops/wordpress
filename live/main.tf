@@ -1,8 +1,7 @@
 provider "aws" {
   region                   = var.region
-  shared_config_files      = ["/home/diego/.aws/config"]
-  shared_credentials_files = ["/home/diego/.aws/credentials"]
-  profile                  = "default"
+  access_key = var.access_key
+  secret_key = var.secret_key
   default_tags {
     tags = {
       Terraform = "P01"
