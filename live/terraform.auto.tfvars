@@ -1,7 +1,6 @@
 region      = "us-east-2"
-service     = "teste"
-environment = "wp"
-company     = "dr"
+service     = "wp"
+environment = "prod"
 #################################################################################################################################
 
 # VPC
@@ -27,9 +26,9 @@ cluster_identifier = "wordpress-cluster"
 engine             = "aurora-mysql"
 engine_version     = "5.7.mysql_aurora.2.08.3"
 engine_mode        = "serverless"
-
 #################################################################################################################################
 
 #CERTIFICATE
 zone_domain = "clusterpoc.com"
 zone_id     = "Z01416496WBJQTWRE1KT"
+#################################################################################################################################
