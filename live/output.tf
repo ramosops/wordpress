@@ -18,3 +18,6 @@ output "db_endpoint" {
   value = module.db.aurora_endpoint
 }
 
+output "alb_dns" {
+  value = module.ecs.alb_dns_name
+}

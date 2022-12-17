@@ -1,3 +1,3 @@
-# output "sg_ecs_id" {
-#   value = aws_security_group.ecs_task.id
-# }
+output "alb_dns_name" {
+  value = aws_lb.alb.dns_name
+}
