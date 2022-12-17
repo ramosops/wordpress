@@ -27,7 +27,7 @@ Após a conclusão do pipeline, a aplicação estará disponível na URL https:/
  
 ### 🔩 Finalização
 
-Após realizar os testes basta rodar o pipeline terraform-destroy que todo o ambiente possa ser desprovisionado
+Após realizar os testes basta rodar o pipeline terraform-destroy para que todo o ambiente possa ser desprovisionado
 
 ## 📦 Acesso a AWS
 
