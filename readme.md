@@ -24,7 +24,7 @@ Uma vez configurado os secrets conforme informado nos Pré-requesitos, é necess
 ## ⚙️ Executando os testes
 
 Após a conclusão do pipeline, a aplicação estará disponível na URL https://wp.mecontrata.cloud
-
+ 
 ### 🔩 Finalização
 
 Após realizar os testes basta rodar o pipeline terraform-destroy que todo o ambiente possa ser desprovisionado
