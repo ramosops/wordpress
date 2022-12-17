@@ -29,10 +29,6 @@ Após a conclusão do pipeline, a aplicação estará disponível na URL https:/
 
 Após realizar os testes basta rodar o pipeline terraform-destroy para que todo o ambiente possa ser desprovisionado
 
-## 📦 Acesso a AWS
-
-Os dados do usuário root para acesso ao console da AWS para verificar a estrutura serão informados por e-mail
-
 ## ✒️ Autor
 
 Diego Ramos
