@@ -8,7 +8,7 @@ Foi criado um processo automatizado para provisionar pelo terraform um ambiente 
 
 A arquitetura escolhida ECS - ASG - ALB - VPC - RDS - ROUTE53
 
-
+As variavéis de ambiente do banco de dados foram armazenadas com segurança dentro do AWS System Manager
 
 ### 📋 Pré-requisitos
 

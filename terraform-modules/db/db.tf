@@ -8,6 +8,7 @@ resource "aws_rds_cluster" "wordpress" {
   db_subnet_group_name   = aws_db_subnet_group.db_subnet.id
   engine_mode            = var.engine_mode
   vpc_security_group_ids = [aws_security_group.sg_db.id]
+  skip_final_snapshot = true
 }
 # Create DB Subnet
 resource "aws_db_subnet_group" "db_subnet" {
