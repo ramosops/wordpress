@@ -12,12 +12,12 @@ As variavéis de ambiente do banco de dados foram armazenadas com segurança den
 
 ### 📋 Pré-requisitos
 
-Necessário adicionar as secrets no repositório do Github para realizar o deploy da aplicação (chaves serão informadas por e-mail)
+Necessário adicionar as secrets no repositório do Github para realizar o deploy do pipeline (por segurança as chaves serão enviadas por e-mail)
 
 ```
 AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY 
 ```
-### 🔧 Instalação
+## 🔧 Instalação
 
 Uma vez configurado os secrets conforme informado nos Pré-requesitos, é necessário executar o o pipeline terraform-deploy para provisionar todo o ambiente dentro da AWS
 
@@ -25,7 +25,7 @@ Uma vez configurado os secrets conforme informado nos Pré-requesitos, é necess
 
 Após a conclusão do pipeline, a aplicação estará disponível na URL https://wp.mecontrata.cloud
  
-### 🔩 Finalização
+## 🔩 Finalização
 
 Após realizar os testes basta rodar o pipeline terraform-destroy para que todo o ambiente possa ser desprovisionado
 
