@@ -36,4 +36,4 @@ terraform.rc
 
 .infracost/*
 
-# *.tfvars
+*.tfvars
