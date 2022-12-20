@@ -8,7 +8,10 @@ Foi criado um processo automatizado para provisionar pelo terraform um ambiente 
 
 A arquitetura escolhida ECS - ASG - ALB - VPC - RDS - ROUTE53
 
-As variavéis de ambiente do banco de dados foram armazenadas com segurança dentro do AWS System Manager
+As variavéis de ambiente do banco de dados foram armazenadas no AWS Parameter Store incluindo a senha, para casos de ambientes produtivos é recomendável armazenar a senha no Secrets
+
+A URL https://wp.mecontrata.cloud estará disponível com o WordPress logo após o deploy da pipeline
+
 
 ### 📋 Pré-requisitos
 
@@ -23,11 +26,11 @@ Uma vez configurado os secrets conforme informado nos Pré-requesitos, é necess
 
 ## ⚙️ Executando os testes
 
-Após a conclusão do pipeline, a aplicação estará disponível na URL https://wp.mecontrata.cloud
+Após a conclusão do pipeline, a aplicação estará disponível pela URL https://wp.mecontrata.cloud ou pela URL do ALB que está disponível no Output do deploy da pipeline
  
 ## 🔩 Finalização
 
-Após realizar os testes basta rodar o pipeline terraform-destroy para que todo o ambiente possa ser desprovisionado
+Após realizar os testes necessário basta rodar o pipeline terraform-destroy para que todo o ambiente possa ser removido. O acesso a console SSH não foi disponibilizado pois o ambiente está rodando no ECS (EC2) e todo o material de configuração se encontra nos arquivos de Terraform
 
 ## ✒️ Autor
 
