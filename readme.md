@@ -1,7 +1,3 @@
-# Wordpress
-
-Objetivo é criar um processo automatizado para construção de um servidor web para WordPress em sua última versão.
-
 ## 🚀 Começando
 
 Foi criado um processo automatizado para provisionar pelo terraform um ambiente na AWS de alta disponibilidade utilizando ECS
